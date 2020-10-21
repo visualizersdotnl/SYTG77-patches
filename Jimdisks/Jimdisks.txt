@@ -1,0 +1,55 @@
+Collection of sounds from James Alfredson III.  Some may be repeats of banks
+the ftp.ucsd.edu or louie.udel.edu sites.
+
+
+ 20TH-AV...A seq. of the 20th Century Fox Theme...same sounds as the Mirabella  
+           bank.  (see below)   
+ BMOVIE....Sound effects (including telephone, great footsteps, and even a  
+           toilet!)  
+ NIKO_VOX..Some improved DX7 sounds plus lots of pads and weird effects.  
+ TARKUS....The first part of Emerson, Lake, and Palmer's Tarkus.
+           Same sounds as in the Mirabella bank.  
+ EQUINOX...With demo seq.  Dance orientated sounds.  
+ PZ........Pianos (acoustic and electric), strings, leads (mono of course!),  
+           synth textures and various others.  
+ SYNEW1....Strange synth textures including "WhaleSong" and "EtherStyle".  
+ NYSOUNDS..Cool analog and digital synth sounds.  Described at the site that I  
+           got it from as, "Industrial Sounds".  
+ 8-SYM1MV..Beethoven's 8th Symphony, first movement.  Bad sequence of it, but  
+           decent symphonic sounds.  
+ BLURONDO..Brubeck's "Blue Rondo ala Turk".  Uses same bank as Mirabella, but  
+           different multi setup.  
+ BRYAN.....Bread and butter sounds with some good B3 simulations and analog  
+           synth simulations.  Includes very funky demo!  
+ OVERTURE..Has repeats of some of the sounds from other banks, but there's a  
+           really good song as a demo.  I think the person u/l it just for the  
+           song.  It's really cool!  
+ ASSORTM...An assortment of sounds.  I'm not sure of the source of each, but  
+           there's some really good lead sounds.  
+ COREA1....Bank 1 of the Corea assortment of sounds.  I think that these are
+           available via anonymous ftp at ftp.uscd.edu, but that's not where I
+           got them!  
+ COREA2....Bank 2 .  
+ WSVOX.....Bank 1 of the Wavestation Emulations.  
+ WSVOX1....Bank 2.  Go figure! :)  
+ WSVOX2....Bank 3.  
+ MIRABELA..A collection of very good bread and butter sounds. Includes organs,  
+           strings, synth basses, synth leads, guitars, etc. Has many
+           different sequences that came with it including Tarkus.  
+ BEATLES...An odd rendition of the Beatles "A Day in The Life".  
+ ROCKKKKK..Mainly synth bass and clav. sounds.  Some brass and elec. piano.  
+ OPUS14....Another Classical sequence using the Mirabella bank.  
+ FUNK-1....Clavs, organs and funky basses.  
+ RDS_FRTS..Reed instruments and fretted instruments.  
+ TINES.....The name says it all!  
+ TOKYO.....A sequence called "Tokyo Girl" with some techno type sounds.  
+ SLOWLOVE..Another Mirabella seq.  
+ JEFF-BNK..Assortment of sounds mostly keyboard orientated (organs, elec.  
+           pianos, etc.)  
+ TANGO!....Yet another Mirabella seq.   
+ 5THSYM....Yet another Classical seq.  
+ JIMBANK1..A collection of 51 sounds created by James Alfredson III with 
+           original demo.
+
+
+

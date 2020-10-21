@@ -1,0 +1,120 @@
+Corrensponding to this file, there are two voice files:
+pwm.syx and pwm2.syx
+They contain the same data as in the mails below.
+
+These are raw MIDI FIles containing System Exclusive Data (SysEx).
+Most Sequencers, Dump Utilities or Librarians will allow you to
+import them as SysEx, raw dump data or raw MIDI.
+_______________________________________________________________________________
+
+From owner-sy-list@spice.com Sat Nov 11 23:51:52 1995
+To: sy-list@spice.com
+Subject: afm pwm
+Sender: owner-sy-list@spice.com
+Reply-To: Christian_Stiens@ouzonix.ruhr.de (Christian Stiens)
+Content-Length: 1038
+X-Lines: 28
+
+Hi!
+
+Here I have a AFM voice for you which can be send to the 99 via
+MIDI bulk dump. It is a *real* pulse width modulation
+(pulse width relation can be set by modulation wheel #2)
+
+
+begin 644 pwm
+M\$,`>@-*3$T@(#@Q,#%60P``````````````````?P$#4%=-($U7,B`@(```#
+M`````````````````````````````````````@`!0`Q``0````P````-?PX`V
+M`@`!``-_``!_`#0`?P%_(`8_/S\_/S\_/S\_```#/P`````````$/P``#@$`G
+M```D-TQ@`0`!``$``0```0`_/S\_/S\_/S\_```#/P````````$2/P``#@$`E
+M```D-TQ@`0`!``$``0```0`_/S\_/S\_/S\_```#/P````````$$/P$`#@$`8
+M```D-TQ@`0`!``$``0```0`_/S\_/S\_/S\_```#/P``!P```0`3-0``#@$@#
+M`'`D-TQ@`0`!``$``0```0`_/S\_/S\_/S\_```#/P```````&$1/P``#@$`T
+M`%XD-TQ@`0`!``$``0```@`_/S\_/S\_/S\_```#/P```````0$4/P$`#@$`(
+M`'\D-TQ@`0`!``$``0```0`A/S\_/T!`0$!`````00``````````4`````!_X
+M`0```````$!`0$!`0$``)#=,8`$``0`!``$``'\!````````0$!`0$!`0``DP
+M-TQ@`0`!``$``0````!/]_!#`'H`9$Q-("`P,#0P5D,`````````````````T
+M`'\!`P```!D`"``*`C\!1P`$`#<`!P`&`!1D9```&0`(``H"/P%'``0`-P`'1
+B``8`%&1D9#(R````8P```&,`00!D````/`]_```````:]PH"\
+``
+end
+size 574
+
+
+
+-- DLG Pro v1.0
+
+_______________________________________________________________________________
+
+From owner-sy-list@spice.com Sat Nov 25 07:11:54 1995
+To: sy-list@spice.com
+Subject: PWM once more
+Sender: owner-sy-list@spice.com
+Reply-To: Christian_Stiens@ouzonix.ruhr.de (Christian Stiens)
+Content-Length: 2476
+X-Lines: 63
+
+Hi!
+
+>And thanks to Chris Stiens for posting the PWM thing, enjoyed it very
+much!
+
+Ok, Herbert, dann setzen wir noch einen drauf :-)
+
+This time we put 2 sligly detuned PWMs to the left and right channel,
+modulation done by a slow LFO, phase difference 180 degrees between left
+and
+right. This gives a nice rotating effect. MW2 sets cutoff frequency.
+
+And how does it work?
+
+AFM PWM is done by modulating a square wave by a saw tooth wave, which must
+have a phase difference of 90 degrees, i.e. a cosaw wave :-)
+
+The square wave is done by FM ratio 1.0<2.0 with feedback from the
+modulator
+to itself or by a chain 1.0<2.0<...<2.0 without feedback and suitable
+output
+levels (an oscilloscope helps).
+
+The saw wave must modulate the carrier with halve the modulation index
+as the modulators. It must be considered that input level 7 is the double
+of level 6, level 6 is the double as level 5 and so forth. A feedback
+connection with input level 7 is the same as a normal connection with
+level 6.
+
+And here comes the bulk dump (this time including the "bulk protect off"
+sequence).
+
+
+begin 644 pwm2
+M\$,0-`\``#0``/?P0P!Z!CA,32`@.#$P,59#``````````````````!_"`10S
+M5TTR("`@("`@```````````````````````````````````````,``$`#``-\
+M``T`#4`*``(`#@`"``$``W\``'\+-`!_`7\G!G\#-`!_`7\A!C\_/S\+/S\_#
+M/S\```,_```$````8`4O```.`2``>"0W3&`!``$``0`!```!`#\_/S\+/S\_/
+M/S\```,_````````81(X```.`0``3B0W3&`!``$``0`!```"`#\_/S\+/S\_9
+M/S\```,_````````81,_```.`0``6B0W3&`!``$``0`!```"`#\_/S\+/S\_M
+M/S\```,_````````81`_```.`0``8B0W3&`!``$``0``6``"`#\_/S\+/S\_)
+M/S\```,_````````81`_```.`0``820W3&`!``$``0`!```"`#\_/S\2/S\_X
+M/S\```,_`````@``800W```.`0``=B0W3&`!``$``0`!```!```^-S\\0$!`?
+M0$`!```%``!X```9``!0`````6\!````````0$!`0$!`0``D-TQ@`0`!``$`B
+M`0`!;P$```````!`0$!`0$!``"0W3&`!``$``0`!````!S\_/S\+/S\_/S\`&
+M``,_```$````8`4O```.`2``>"0W3&`!``$``0`!```!`#\_/S\+/S\_/S\`/
+M``,_````````81(X```.`0``3B0W3&`!``$``0`!```"`#\_/S\+/S\_/S\`9
+M``,_````````81,_```.`0``6B0W3&`!``$``0`!```"`#\_/S\+/S\_/S\`M
+M``,_````````81`_```.`0``8B0W3&`!``$``0``6``"`#\_/S\+/S\_/S\`)
+M``,_````````81`_```.`0``820W3&`!``$``0`!```"`#\_/S\2/S\_/S\`X
+M``,_`````@``800W```.`0``=B0W3&`!``$``0`!```!```^-S\\0$!`0$`!B
+M```%``!X``!+``!0`````6\!````````0$!`0$!`0``D-TQ@`0`!``$``0`!5
+M;P$```````!`0$!`0$!``"0W3&`!``$``0`!````!W[W\$,`>@!K3$T@(#`P(
+M-#!60P``````````````````?P@$````&0`(``H"/P%'``0`-P`'``8`%&1D@
+M```9``@`"@(_`4<`!``W``<`!@`49&1D,C(```!C````8P!!`&0````\#W\`5
+-``]_```````````$]P`W`
+``
+end
+size 958
+
+
+
+-- DLG Pro v1.0
+

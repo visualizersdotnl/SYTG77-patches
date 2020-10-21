@@ -1,0 +1,48 @@
+keymastr.txt
+
+From the original mail:
+(the format description is not vaild for keymastr.zip of course)
+_______________________________________________________________________________
+
+From akra@uranus.di.uoa.ariadne-t.gr Tue Dec 21 02:38:57 1993
+To: sy-list@chorus.fr
+Subject: SY77 sounds for FREE...
+Content-Length: 6856
+
+Hello SY77 users !
+
+Here are some sounds I've created:
+
+Percussion
+----------
+1.TECH-KICK	:"Techno" style heavy bass drum.
+2.HouseSnare	:A noisy house type snare.
+3.HardSnare	:Snare drum with emphasis to the high frequences.
+4.FunkySnare	:A metalic-sounding snare (I use it in funk styles) 
+
+Pads/Effects
+------------
+1.Thriller	:Ok,this mostly for demostration...
+		 play soft to strong and hear!
+2.Apocalypse2	:Can you describe this ? :-)
+3.Psychopad	:Play a sustained note.
+4.Fairlight2	:Play a sustained note.
+
+Others
+------
+1.AngryStr	:"Angry" ,agitato style heavy strings (I *LIKE* THEM).
+		Use MW2 to soften/sharpen it. Lower notes sound best.
+2.DX-EPIANO	:Classic full DX-7 Style electric piano .Use MW2 to
+		hear the strings play along with you.
+That's all !!!
+
+The file format is "Synth all".
+The file is UUENCODED and COMPRESSED with GNU Zip (gzip).
+All other voices are empty to increase compression 
+(It worked...The original file was ~60K and the compressed only 4K! ;)
+
+*** IF YOU LIKE THOSE SOUNDS SEND ME A NICE ENCOURAGING MAIL !!! 8) ***
+
+If you don't , send mail to trashcan@garbage.com.
+
+_______________________________________________________________________________
